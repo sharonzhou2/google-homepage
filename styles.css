@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    font-size: 60pt;
+}
+
+#buttons {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#buttons > button {
+    font-size: 10pt;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(230, 230, 230);
+    margin: auto;
+    display: flex;
+}
+
+nav {
+    /* display: inline; */
+}
+
+ul {
+   display: flex;
+   justify-content: space-evenly;
+}
+ul > li {
+    list-style-type: none;
+    display: inline;
+    color: rgb(172, 169, 169);
+   
+}
